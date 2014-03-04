@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="05a4de54f9ed4acbb480fd509136cb26" Name="Diagram1" ZoomLevel="71">
+        <EntityTypeShape EntityType="HealthyClub_BoroondaraModel.UserAttendanceLog" Width="1.5" PointX="11" PointY="12.25" FillColor="Red" />
+        <EntityTypeShape EntityType="HealthyClub_BoroondaraModel.ActivityAttendance" Width="1.5" PointX="18.5" PointY="3.875" FillColor="YellowGreen" />
+        <EntityTypeShape EntityType="HealthyClub_BoroondaraModel.UserAttendanceLog" Width="1.5" PointX="11" PointY="12.25" FillColor="Red" />
+        <EntityTypeShape EntityType="HealthyClub_BoroondaraModel.ActivitiesLog" Width="1.5" PointX="9.75" PointY="3.375" />
+        <EntityTypeShape EntityType="HealthyClub_BoroondaraModel.ActivitiesLogGroup" Width="1.5" PointX="7.5" PointY="3.375" />
+        <EntityTypeShape EntityType="HealthyClub_BoroondaraModel.Activity" Width="1.5" PointX="5.25" PointY="13.875" />
+        <EntityTypeShape EntityType="HealthyClub_BoroondaraModel.ActivityContactDetail" Width="1.5" PointX="7.5" PointY="10.75" />
+        <EntityTypeShape EntityType="HealthyClub_BoroondaraModel.ActivityGrouping" Width="1.5" PointX="7.5" PointY="7.5" />
+        <EntityTypeShape EntityType="HealthyClub_BoroondaraModel.ActivityImage" Width="1.5" PointX="7.5" PointY="17.875" />
+        <EntityTypeShape EntityType="HealthyClub_BoroondaraModel.ActivityImageDetail" Width="1.5" PointX="9.75" PointY="17.625" />
+        <EntityTypeShape EntityType="HealthyClub_BoroondaraModel.ActivityRewards" Width="1.5" PointX="7.5" PointY="21.25" />
+        <EntityTypeShape EntityType="HealthyClub_BoroondaraModel.ActivitySchedule" Width="1.5" PointX="7.5" PointY="25.125" />
+        <EntityTypeShape EntityType="HealthyClub_BoroondaraModel.ActivityUserAttendance" Width="1.5" PointX="7.5" PointY="29.75" />
+        <EntityTypeShape EntityType="HealthyClub_BoroondaraModel.Category" Width="1.5" PointX="11.75" PointY="17.75" />
+        <EntityTypeShape EntityType="HealthyClub_BoroondaraModel.ContactUs" Width="1.5" PointX="18.75" PointY="0.75" />
+        <EntityTypeShape EntityType="HealthyClub_BoroondaraModel.Council" Width="1.5" PointX="12" PointY="13" />
+        <EntityTypeShape EntityType="HealthyClub_BoroondaraModel.CustomerContact" Width="1.5" PointX="19.75" PointY="15.75" />
+        <EntityTypeShape EntityType="HealthyClub_BoroondaraModel.EmailSetting" Width="1.5" PointX="0.75" PointY="14.75" />
+        <EntityTypeShape EntityType="HealthyClub_BoroondaraModel.EmailTemplate" Width="1.5" PointX="19.75" PointY="19.75" />
+        <EntityTypeShape EntityType="HealthyClub_BoroondaraModel.FooterMenu" Width="1.5" PointX="3" PointY="6" />
+        <EntityTypeShape EntityType="HealthyClub_BoroondaraModel.KeyCollection" Width="1.5" PointX="5.75" PointY="0.75" />
+        <EntityTypeShape EntityType="HealthyClub_BoroondaraModel.Keyword" Width="1.5" PointX="0.75" PointY="11.75" />
+        <EntityTypeShape EntityType="HealthyClub_BoroondaraModel.Link" Width="1.5" PointX="0.75" PointY="7.375" />
+        <EntityTypeShape EntityType="HealthyClub_BoroondaraModel.Menu" Width="1.5" PointX="3" PointY="8.625" />
+        <EntityTypeShape EntityType="HealthyClub_BoroondaraModel.Page" Width="1.5" PointX="20.75" PointY="0.75" />
+        <EntityTypeShape EntityType="HealthyClub_BoroondaraModel.ProviderLog" Width="1.5" PointX="5.25" PointY="32.875" />
+        <EntityTypeShape EntityType="HealthyClub_BoroondaraModel.ProviderProfiles" Width="1.5" PointX="3" PointY="17.875" />
+        <EntityTypeShape EntityType="HealthyClub_BoroondaraModel.ProviderSettings" Width="1.5" PointX="5.25" PointY="36.625" />
+        <EntityTypeShape EntityType="HealthyClub_BoroondaraModel.Reward" Width="1.5" PointX="14" PointY="3.5" />
+        <EntityTypeShape EntityType="HealthyClub_BoroondaraModel.RewardImage" Width="1.5" PointX="16.25" PointY="3.125" />
+        <EntityTypeShape EntityType="HealthyClub_BoroondaraModel.RewardsDetails" Width="1.5" PointX="16.25" PointY="6.5" />
+        <EntityTypeShape EntityType="HealthyClub_BoroondaraModel.RewardsType" Width="1.5" PointX="11.75" PointY="9.25" />
+        <EntityTypeShape EntityType="HealthyClub_BoroondaraModel.Sponsor" Width="1.5" PointX="11.75" PointY="4.75" />
+        <EntityTypeShape EntityType="HealthyClub_BoroondaraModel.State" Width="1.5" PointX="9.75" PointY="13.625" />
+        <EntityTypeShape EntityType="HealthyClub_BoroondaraModel.Suburb" Width="1.5" PointX="14.25" PointY="13.5" />
+        <EntityTypeShape EntityType="HealthyClub_BoroondaraModel.sysdiagrams" Width="1.5" PointX="13.75" PointY="20.75" />
+        <EntityTypeShape EntityType="HealthyClub_BoroondaraModel.UserImage" Width="1.5" PointX="0.75" PointY="1.25" />
+        <EntityTypeShape EntityType="HealthyClub_BoroondaraModel.UserImageDetail" Width="1.5" PointX="3" PointY="1" />
+        <EntityTypeShape EntityType="HealthyClub_BoroondaraModel.UserLog" Width="1.5" PointX="5.25" PointY="39.375" />
+        <EntityTypeShape EntityType="HealthyClub_BoroondaraModel.UserProfiles" Width="1.5" PointX="3" PointY="42.125" />
+        <EntityTypeShape EntityType="HealthyClub_BoroondaraModel.UserReference" Width="1.5" PointX="5.25" PointY="43" />
+        <EntityTypeShape EntityType="HealthyClub_BoroondaraModel.UserReward" Width="1.5" PointX="5.25" PointY="45.625" />
+        <EntityTypeShape EntityType="HealthyClub_BoroondaraModel.UserRewardLog" Width="1.5" PointX="9.75" PointY="37.625" />
+        <EntityTypeShape EntityType="HealthyClub_BoroondaraModel.Users" Width="1.5" PointX="0.75" PointY="26.25" />
+        <EntityTypeShape EntityType="HealthyClub_BoroondaraModel.UserSavedList" Width="1.5" PointX="5.25" PointY="48.875" />
+        <EntityTypeShape EntityType="HealthyClub_BoroondaraModel.VoucherDetails" Width="1.5" PointX="19.25" PointY="4.75" />
+        <EntityTypeShape EntityType="HealthyClub_BoroondaraModel.WebAssets" Width="1.5" PointX="15.75" PointY="20.75" />
+        <EntityTypeShape EntityType="HealthyClub_BoroondaraModel.WebConfiguration" Width="1.5" PointX="21.75" PointY="4.75" />
+        <EntityTypeShape EntityType="HealthyClub_BoroondaraModel.WeblLogAction" Width="1.5" PointX="17" PointY="17" />
+        <EntityTypeShape EntityType="HealthyClub_BoroondaraModel.WebLog" Width="1.5" PointX="14.75" PointY="17" />
+        <EntityTypeShape EntityType="HealthyClub_BoroondaraModel.webpages_Membership" Width="1.5" PointX="19" PointY="11" />
+        <EntityTypeShape EntityType="HealthyClub_BoroondaraModel.webpages_OAuthMembership" Width="1.5" PointX="7.75" PointY="0.75" />
+        <EntityTypeShape EntityType="HealthyClub_BoroondaraModel.webpages_Roles" Width="1.5" PointX="16.75" PointY="11.875" />
+        <EntityTypeShape EntityType="HealthyClub_BoroondaraModel.v_ActivitiesLogExplorer" Width="1.5" PointX="9.75" PointY="21.75" />
+        <EntityTypeShape EntityType="HealthyClub_BoroondaraModel.v_ActivityExpiryView" Width="1.5" PointX="21.75" PointY="12.75" />
+        <EntityTypeShape EntityType="HealthyClub_BoroondaraModel.v_ActivityExplorer" Width="1.5" PointX="21.75" PointY="16.75" />
+        <EntityTypeShape EntityType="HealthyClub_BoroondaraModel.v_ActivityImageExplorer" Width="1.5" PointX="22.75" PointY="0.75" />
+        <EntityTypeShape EntityType="HealthyClub_BoroondaraModel.v_ActivityView" Width="1.5" PointX="23.75" PointY="4.75" />
+        <EntityTypeShape EntityType="HealthyClub_BoroondaraModel.v_CategoryCount" Width="1.5" PointX="9.75" PointY="0.75" />
+        <EntityTypeShape EntityType="HealthyClub_BoroondaraModel.v_CategoryExplorer" Width="1.5" PointX="11.75" PointY="23.75" />
+        <EntityTypeShape EntityType="HealthyClub_BoroondaraModel.v_CouncilExplorer" Width="1.5" PointX="23.75" PointY="17.75" />
+        <EntityTypeShape EntityType="HealthyClub_BoroondaraModel.v_EmailExplorer" Width="1.5" PointX="17.75" PointY="23.75" />
+        <EntityTypeShape EntityType="HealthyClub_BoroondaraModel.v_FooterMenu" Width="1.5" PointX="23.75" PointY="20.75" />
+        <EntityTypeShape EntityType="HealthyClub_BoroondaraModel.v_KeyCollectionView" Width="1.5" PointX="23.75" PointY="23.75" />
+        <EntityTypeShape EntityType="HealthyClub_BoroondaraModel.v_Menu" Width="1.5" PointX="24.75" PointY="0.75" />
+        <EntityTypeShape EntityType="HealthyClub_BoroondaraModel.v_RewardExplorer" Width="1.5" PointX="13.75" PointY="24.75" />
+        <EntityTypeShape EntityType="HealthyClub_BoroondaraModel.v_RewardUserExplorer" Width="1.5" PointX="2.75" PointY="25.75" />
+        <EntityTypeShape EntityType="HealthyClub_BoroondaraModel.v_ScheduleCount" Width="1.5" PointX="11.75" PointY="0.75" />
+        <EntityTypeShape EntityType="HealthyClub_BoroondaraModel.v_SuburbExplorer" Width="1.5" PointX="25.75" PointY="4.75" />
+        <EntityTypeShape EntityType="HealthyClub_BoroondaraModel.v_UserAttendanceView" Width="1.5" PointX="4.75" PointY="25.75" />
+        <EntityTypeShape EntityType="HealthyClub_BoroondaraModel.v_UserExplorer" Width="1.5" PointX="25.75" PointY="8.75" />
+        <EntityTypeShape EntityType="HealthyClub_BoroondaraModel.v_WebLogExplorer" Width="1.5" PointX="25.75" PointY="12.75" />
+        <AssociationConnector Association="HealthyClub_BoroondaraModel.FK_ActivitiesLog_ActivitiesLogGroup" />
+        <AssociationConnector Association="HealthyClub_BoroondaraModel.FK_ActivitiesLogGroup_Activity" />
+        <AssociationConnector Association="HealthyClub_BoroondaraModel.FK_Activity_ProviderProfiles" />
+        <AssociationConnector Association="HealthyClub_BoroondaraModel.FK_ActivityAttendanceLog_Activity" />
+        <AssociationConnector Association="HealthyClub_BoroondaraModel.FK_ActivityContactDetails_Activity" />
+        <AssociationConnector Association="HealthyClub_BoroondaraModel.FK_ActivityGrouping_Activity" />
+        <AssociationConnector Association="HealthyClub_BoroondaraModel.FK_ActivityImage_Activity" />
+        <AssociationConnector Association="HealthyClub_BoroondaraModel.FK_ActivityRewards_Activity" />
+        <AssociationConnector Association="HealthyClub_BoroondaraModel.FK_ActivitySchedule_Activity1" />
+        <AssociationConnector Association="HealthyClub_BoroondaraModel.FK_ActivityImageDetail_ActivityImageDetail" />
+        <AssociationConnector Association="HealthyClub_BoroondaraModel.FK_UserRewardLog_ActivityUserAttendance" />
+        <AssociationConnector Association="HealthyClub_BoroondaraModel.FK_Council_State" />
+        <AssociationConnector Association="HealthyClub_BoroondaraModel.FK_Suburb_Council" />
+        <AssociationConnector Association="HealthyClub_BoroondaraModel.FK_FooterMenu_Link" />
+        <AssociationConnector Association="HealthyClub_BoroondaraModel.FK_Keyword_Keyword" />
+        <AssociationConnector Association="HealthyClub_BoroondaraModel.FK_Menu_Link" />
+        <AssociationConnector Association="HealthyClub_BoroondaraModel.FK_ProviderLog_ProviderProfiles" />
+        <AssociationConnector Association="HealthyClub_BoroondaraModel.FK_ProviderProfiles_Users" />
+        <AssociationConnector Association="HealthyClub_BoroondaraModel.FK_ProviderSettings_ProviderProfiles" />
+        <AssociationConnector Association="HealthyClub_BoroondaraModel.FK_Admin_Rewards_ProviderProfiles" />
+        <AssociationConnector Association="HealthyClub_BoroondaraModel.FK_Admin_Rewards_Rewards_Type" />
+        <AssociationConnector Association="HealthyClub_BoroondaraModel.FK_RewardImage_Reward" />
+        <AssociationConnector Association="HealthyClub_BoroondaraModel.FK_RewardsDetails_Reward" />
+        <AssociationConnector Association="HealthyClub_BoroondaraModel.FK_Voucher_Details_Admin_Rewards" />
+        <AssociationConnector Association="HealthyClub_BoroondaraModel.FK_VoucherDetails_Sponsor" />
+        <AssociationConnector Association="HealthyClub_BoroondaraModel.FK_UserImage_UserImage" />
+        <AssociationConnector Association="HealthyClub_BoroondaraModel.FK_UserImageDetail_UserImage" />
+        <AssociationConnector Association="HealthyClub_BoroondaraModel.FK_UserLog_UserLog" />
+        <AssociationConnector Association="HealthyClub_BoroondaraModel.FK_Reward_User_UserProfiles" />
+        <AssociationConnector Association="HealthyClub_BoroondaraModel.FK_SavedList_UserProfiles" />
+        <AssociationConnector Association="HealthyClub_BoroondaraModel.FK_UserProfiles_Users" />
+        <AssociationConnector Association="HealthyClub_BoroondaraModel.FK_UserReference_UserProfiles" />
+        <AssociationConnector Association="HealthyClub_BoroondaraModel.FK_UserRewardLog_UserReward" />
+        <AssociationConnector Association="HealthyClub_BoroondaraModel.FK_WeblLogAction_WebLog" />
+        <AssociationConnector Association="HealthyClub_BoroondaraModel.webpages_UsersInRoles" />
+        </Diagram>
+
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

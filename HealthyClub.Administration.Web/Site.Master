@@ -1,0 +1,180 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="HealthyClub.Administration.Web.SiteMaster" EnableViewState="true" %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <title>Healthy Australia Club - Central Administration</title>
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/bundles/modernizr") %>
+    </asp:PlaceHolder>
+    <webopt:BundleReference runat="server" Path="~/Content/css" />
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width" />
+    <asp:ContentPlaceHolder runat="server" ID="HeadContent" />
+
+</head>
+<body>
+    <form id="Form1" runat="server">
+        <ajaxToolkit:ToolkitScriptManager ID="ToolkitScriptManager1" runat="server">
+            <Scripts>
+                <%--To learn more about bundling scripts in ScriptManager see http://go.microsoft.com/fwlink/?LinkID=272931&clcid=0x409 --%>
+                <%--Framework Scripts--%>
+                <asp:ScriptReference Name="jquery" />
+                <asp:ScriptReference Name="jquery.ui.combined" />
+                <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
+                <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
+                <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
+                <asp:ScriptReference Name="GridView.js" Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js" />
+                <asp:ScriptReference Name="DetailsView.js" Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js" />
+                <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
+                <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
+                <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
+                <asp:ScriptReference Name="WebFormsBundle" />
+                <%--Site Scripts--%>
+            </Scripts>
+        </ajaxToolkit:ToolkitScriptManager>
+
+
+        <div class="container_12">
+            <div class="grid_12 header-repeat">
+                <div id="branding">
+                    <div class="floatleft">
+                        <asp:Image ID="Image2" runat="server" ImageUrl="~/Content/StyleImages/hbc_logo.png" Style="position: absolute; top: 23px; height: 60px;" AlternateText="logo" />
+                        <div style="padding-left: 80px; color: #fff">
+                            <h3>Healthy Australia Club - Central Administration</h3>
+                        </div>
+                    </div>
+                    <div class="floatright">
+                        <div class="floatleft">
+
+                            <%--<img src="Content/img/img-profile.jpg" alt="Profile Pic" />--%>
+                        </div>
+                        <div class="floatleft marginleft10">
+                            <asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
+                                <AnonymousTemplate>
+                                    &nbsp;<asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Account/login.aspx">Log in</asp:HyperLink><asp:HyperLink
+                                        ID="HyperLink3" runat="server" NavigateUrl="~/Registration/">Join now</asp:HyperLink>
+                                </AnonymousTemplate>
+                                <LoggedInTemplate>
+                                    <span class="bold" style="color: white">Hi
+                                        <asp:LoginName ID="HeadLoginName" runat="server" />
+                                    </span><a href="~/Account/" id="A2" runat="server">Account
+                                    </a></span>
+                            <asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" LogoutText="Log Out"
+                                LogoutPageUrl="~/" />
+
+                                </LoggedInTemplate>
+                            </asp:LoginView>
+                            <br />
+                            <span class="small grey"></span>
+                        </div>
+                    </div>
+                    <div class="clear">
+                    </div>
+                </div>
+            </div>
+            <div class="clear">
+            </div>
+            <div class="grid_12">
+                <ul class="nav main">
+
+                    <li class="ic-dashboard">
+                        <asp:HyperLink ID="hlnkDash" runat="server" NavigateUrl="~/Default.aspx"><span>Dashboard</span></asp:HyperLink></li>
+                    <li class="ic-grid-tables">
+                        <asp:HyperLink ID="HyperLink9" runat="server"><span>Content</span></asp:HyperLink>
+                        <ul>
+                            <li>
+                                <asp:HyperLink ID="HyperLink11" NavigateUrl="~/Activities/" Text="Activities" runat="server"></asp:HyperLink>
+
+                            </li>
+                            <li>
+                                <asp:HyperLink ID="HyperLink22" NavigateUrl="~/Rewards/" Text="Rewards" runat="server"></asp:HyperLink>
+
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="ic-form-style"><a href="javascript:"><span>Content Setting</span></a>
+                        <ul>
+                            <li>
+                                <asp:HyperLink ID="HyperLink4" NavigateUrl="~/Categories" Text="Categories" runat="server"></asp:HyperLink>
+                            </li>
+                            <li>
+                                <asp:HyperLink ID="HyperLink13" NavigateUrl="~/Council" Text="Council" runat="server"></asp:HyperLink>
+                            </li>
+                            <li>
+                                <asp:HyperLink ID="HyperLink7" NavigateUrl="~/Keyword" Text="Keyword" runat="server"></asp:HyperLink>
+                            </li>
+
+                            <li>
+                                <asp:HyperLink ID="HyperLink5" NavigateUrl="~/Suburb" Text="Suburb" runat="server"> </asp:HyperLink>
+                            </li>
+                            <li>
+                                <asp:HyperLink ID="HyperLink6" NavigateUrl="~/State" Text="State" runat="server"></asp:HyperLink>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="ic-typography dd">
+
+                        <asp:HyperLink ID="HyperLink8" NavigateUrl="~/Pages/" runat="server"><span>Pages</span></asp:HyperLink></li>
+
+                    <li class=" dd">
+                        <asp:HyperLink ID="HyperLink10" NavigateUrl="~/Account" runat="server"><span>User Management</span></asp:HyperLink>
+                    </li>
+                    <li class="ic-gallery dd">
+                        <asp:HyperLink ID="HyperLink12" NavigateUrl="~/Assets/" runat="server"><span>Images</span></asp:HyperLink>
+
+                    </li>
+                    <li class="dd">
+                        <asp:HyperLink ID="HyperLink1" NavigateUrl="~/Assets/" runat="server"><span>Site Setting</span></asp:HyperLink>
+                        <ul>
+                            <li>
+                                <asp:HyperLink ID="HyperLink16" NavigateUrl="~/Settings/Navigation" runat="server">Navigation</asp:HyperLink></li>
+                            <li>
+                                <asp:HyperLink ID="HyperLink17" NavigateUrl="~/Mail/EmailTemplate" runat="server">Mail Template</asp:HyperLink></li>
+                            <li>
+                                <asp:HyperLink ID="HyperLink18" NavigateUrl="~/Settings/Mailer" runat="server">SMTP Setting</asp:HyperLink></li>
+                        </ul>
+                    </li>
+
+
+                    <%-- <li class="ic-notifications"> <asp:HyperLink ID="HyperLink1" NavigateUrl="~/Log/" runat="server"><span>Log</span></asp:HyperLink></li>--%>
+                </ul>
+            </div>
+
+            <div class="clear">
+            </div>
+            <div id="main">
+                <asp:ContentPlaceHolder runat="server" ID="FeaturedContent" />
+                <div id="content">
+                    <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+                <div class="cleaner">
+                </div>
+            </div>
+
+            <div class="clear">
+            </div>
+        </div>
+        <div class="clear">
+        </div>
+        <div id="footer">
+            <div id="master_footer">
+                <ul class="footer_menu">
+                    <li><a href="../Pages/20">Privacy</a></li>
+                    <li class="last_menu"><a href="../Pages/21" target="_parent">Terms
+                        and Conditions</a></li>
+                </ul>
+                Site maintained by <a href="http://www.iechs.com.au">Inner East Community Health</a>
+                © 2013&nbsp;&nbsp;
+            </div>
+        </div>
+    </form>
+</body>
+
+
+
+
+</html>

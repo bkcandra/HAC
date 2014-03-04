@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>SimMetrics</id>
+    <version>1.1.4118.23231</version>
+    <title>SimMetrics  - Similarity Metric Library</title>
+    <authors>ReverandSam</authors>
+    <owners>ReverandSam</owners>
+    <licenseUrl>http://www.gnu.org/licenses/gpl.html</licenseUrl>
+    <projectUrl>http://sourceforge.net/projects/simmetrics/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>SimMetrics is a Similarity Metric Library, e.g. from edit distance's (Levenshtein, Gotoh, Jaro etc) to other metrics, (e.g Soundex, Chapman). Work provided by UK Sheffield University funded by (AKT) an IRC sponsored by EPSRC, grant number GR/N15764/01.
+
+http://www.dcs.shef.ac.uk/~sam/simmetrics.html</description>
+    <releaseNotes />
+    <copyright />
+    <language />
+    <tags>algorithms artifical intelligence</tags>
+  </metadata>
+</package>

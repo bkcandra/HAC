@@ -1,0 +1,119 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="HealthyClub.Provider.Web.SiteMaster" %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <title>Healthy Australia Club : Provider</title>
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/bundles/modernizr") %>
+    </asp:PlaceHolder>
+    <webopt:BundleReference runat="server" Path="~/Content/css" />
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <meta name="application-name" content="HealthyAustraliClubCMS" />
+    <meta name="keywords" content="Healthy, Boroondara, Club, Social, Education, Fitness, Exercise, Health, Well-being, Fun, Activities, Local, Gym, Seminar, Course, Training, Activity, Sport, Entertainment, IECHS, health promotion, Australia" />
+    <meta name="description" content="The Healthy Australia Club is a local project in Melbourne, Australia. We list any activity that promotes physical, mental and social health and well-being for free in Australia" />
+    <meta name="author" content="Bina Candra" />
+    <meta name="viewport" content="width=device-width" />
+    <asp:ContentPlaceHolder runat="server" ID="HeadContent" />
+    <meta name="google-site-verification" content="0I4XdAv53bZFfoOtpUyfST25DdEZmx1jIARrNKhTBY4" />
+</head>
+<body>
+    <form runat="server">
+        <ajaxToolkit:ToolkitScriptManager ID="ToolkitScriptManager1" runat="server">
+            <Scripts>              
+                <%--Framework Scripts--%>
+                <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
+                <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
+                <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
+                <asp:ScriptReference Name="GridView.js" Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js" />
+                <asp:ScriptReference Name="DetailsView.js" Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js" />
+                <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
+                <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
+                <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
+                <asp:ScriptReference Name="WebFormsBundle" />
+                <%--Site Scripts--%>
+            </Scripts>
+        </ajaxToolkit:ToolkitScriptManager>
+        <div id="body_wrapper">
+            <div id="wrapper">
+                <div id="header">
+                    <div class="header_logo">
+                        <asp:HyperLink ID="HyperLink1" NavigateUrl="~" runat="server">
+                            <asp:Image ID="Image1" runat="server" ImageUrl="~/Content/StyleImages/hbc_logo.png" Style="position: absolute; height: 100px;" />
+                        </asp:HyperLink>
+                    </div>
+                    <div id="header_left">
+                        <span class="MasterTitle">Healthy Australia Club: Boroondara</span>
+                        <span class="MasterTitle2"></span>
+                        <span class="MasterTitle3">Activity Provider Homepage</span>
+                    </div>
+                    <div id="header_right">
+                        <asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
+                            <AnonymousTemplate>
+                                &nbsp;<asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Account/login.aspx">Log in</asp:HyperLink>&nbsp;|&nbsp;<asp:HyperLink
+                                    ID="HyperLink3" runat="server" NavigateUrl="~/Registration/">Join now</asp:HyperLink>
+                            </AnonymousTemplate>
+                            <LoggedInTemplate>
+                                <span class="bold">Hi</span>, <a href="~/Account/" id="A2" runat="server">
+                                    <asp:LoginName ID="HeadLoginName" runat="server" />
+                                </a></span>[
+                            <asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" LogoutText="Log Out" OnLoggedOut="HeadLoginStatus_LoggedOut"
+                                LogoutPageUrl="~/" />
+                                ]
+                            </LoggedInTemplate>
+                        </asp:LoginView>
+                    </div>
+                    <div class="cleaner">
+                    </div>
+                </div>
+                <!-- END of header -->
+                <div id="menubar">
+                    <div id="top_nav" class="ddsmoothmenu">
+                        <asp:Menu ID="MenuNavigation" runat="server" Orientation="Horizontal" StaticEnableDefaultPopOutImage="False"
+                            StaticSubMenuIndent="16px">
+                            <DynamicItemTemplate>
+                                <%# Eval("Text") %>
+                            </DynamicItemTemplate>
+                            <Items>
+                                <asp:MenuItem NavigateUrl="~" Text="Home" Value="Home"></asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/Activities/" Text="My Activities" Value="My Activities"></asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/Report/" Text="My Reports" Value="Report"></asp:MenuItem>
+                            </Items>
+                            <StaticMenuStyle />
+
+                        </asp:Menu>
+
+                        <br style="clear: left" />
+                    </div>
+                    <!-- end of ddsmoothmenu -->
+
+                </div>
+                <!-- END of menubar -->
+                <div id="main">
+                    <asp:ContentPlaceHolder runat="server" ID="FeaturedContent" />
+                    <div id="content">
+                        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                    <div class="cleaner">
+                    </div>
+                </div>
+                <!-- END of main -->
+                <div id="footer">
+                    <div id="master_footer">
+                        <ul class="footer_menu">
+                            <li><a href="../Pages/20">Privacy</a></li>
+                            <li class="last_menu"><a href="../Pages/21" target="_parent">Terms
+                        and Conditions</a></li>
+                        </ul>
+                        Site maintained by <a href="http://www.iechs.com.au">Inner East Community Health</a>
+                        © 2013&nbsp;&nbsp;
+                    </div>
+                </div>
+                <!-- END of footer -->
+            </div>
+        </div>
+    </form>
+</body>
+</html>

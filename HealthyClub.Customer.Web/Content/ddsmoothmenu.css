@@ -1,0 +1,16 @@
+.ddsmoothmenu #MenuNavigation{clear:both;height:40px;padding:11px 0 0}.ddsmoothmenu #MenuNavigation ul{margin:0;padding:0 0 0 20px;list-style:none;z-index:50}.ddsmoothmenu #MenuNavigation ul li{padding:0;margin:0;display:inline}.ddsmoothmenu #MenuNavigation ul li a {
+                position: relative;
+                float: left;
+                width: 114px;
+                display: block;
+                line-height: 24px;
+                height: 35px; /*Set Height for ul*/
+                padding: 0px 0 0 0;
+                margin-right: 3px;
+                text-align: center;
+                font-size: 13px;
+                text-decoration: none;
+                color: #17438C;
+                font-weight: bold;
+                outline: none;
+            }.ddsmoothmenu #MenuNavigation li a:hover,.ddsmoothmenu #MenuNavigation li .current{background-position:center;color:#fff;background:url(StyleImages/menu_hover.png);background-repeat:no-repeat;background-position:top center}* html .ddsmoothmenu #MenuNavigation ul li a{display:inline-block}.ddsmoothmenu #MenuNavigation ul li ul{position:absolute;left:0;padding:0;display:none;background:#254D8F;border-bottom:4px solid #0e3474}.ddsmoothmenu #MenuNavigation ul li ul li{display:list-item;float:none}.ddsmoothmenu #MenuNavigation ul li ul li ul{top:0}.ddsmoothmenu #MenuNavigation ul li ul li a{font-weight:400;width:100px;height:30px;padding:0 30px;line-height:30px;font-size:11px;text-align:left;background:0;color:#fff;border-bottom:1px solid #17438C;border-top:1px solid #275196}.ddsmoothmenu #MenuNavigation ul li ul li a.selected,.ddsmoothmenu #MenuNavigation ul li ul li a:hover{color:#fff;font-weight:700;background:#17438C;width:100px;margin:0}* html .ddsmoothmenu{height:1%}.downarrowclass{position:absolute;top:12px;right:7px}.rightarrowclass{position:absolute;top:6px;right:5px}.ddshadow{position:absolute;left:0;top:0;width:0;height:0}.toplevelshadow{opacity:.5}

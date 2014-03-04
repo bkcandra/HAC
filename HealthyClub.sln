@@ -1,0 +1,178 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Administration", "Administration", "{A0055893-1D53-4044-84C8-52E6821BCC36}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Customer", "Customer", "{24902E18-2A03-4590-99D9-375E8756CC0C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Provider", "Provider", "{0664BD3E-5ACF-4B60-8511-5808354D0138}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthyClub.Administration.DA", "HealthyClub.Administration.DA\HealthyClub.Administration.DA.csproj", "{724AB630-EA61-4619-A614-525956A86547}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthyClub.Administration.EDS", "HealthyClub.Administration.EDS\HealthyClub.Administration.EDS.csproj", "{C111F3D1-A79F-4F5A-BB12-05CBEE8C75B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthyClub.Administration.BF", "HealthyClub.Administration.BF\HealthyClub.Administration.BF.csproj", "{50CF5036-7774-494A-94FD-114075B9CD2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthyClub.Customer.BF", "HealthyClub.Customer.BF\HealthyClub.Customer.BF.csproj", "{9A93BE34-B8B3-4F84-8474-76211A19E458}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthyClub.Customer.EDS", "HealthyClub.Customer.EDS\HealthyClub.Customer.EDS.csproj", "{00971025-E5C0-4B85-9915-00C4C5F01CF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthyClub.Customer.DA", "HealthyClub.Customer.DA\HealthyClub.Customer.DA.csproj", "{21E659BE-2A5F-4588-A5B5-45D2AC945853}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthyClub.Provider.DA", "HealthyClub.Provider.DA\HealthyClub.Provider.DA.csproj", "{8C5A5889-B737-4018-9E6E-3408427E0D19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthyClub.Provider.BF", "HealthyClub.Provider.BF\HealthyClub.Provider.BF.csproj", "{E0A8ADF0-37A8-4037-A279-7BFB5D537D8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthyClub.Provider.EDS", "HealthyClub.Provider.EDS\HealthyClub.Provider.EDS.csproj", "{516FD4C9-303B-41FD-9BCA-19A0B996977D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthyClub.Utility", "HealthyClub.Utility\HealthyClub.Utility.csproj", "{B0594CF1-0283-4636-A219-CBF69118D723}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthyClub.EDM", "HealthyClub.EDM\HealthyClub.EDM.csproj", "{A636BF9D-7BAF-4361-8B04-6FC426EDD833}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthyClub.Provider.Web", "HealthyClub.Provider.Web\HealthyClub.Provider.Web.csproj", "{5AAFEBE4-02A7-49D6-B61A-F2A946419F36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthyClub.Customer.Web", "HealthyClub.Customer.Web\HealthyClub.Customer.Web.csproj", "{EFFC2E61-5E73-456F-B248-88B5300FEC08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthyClub.Administration.Web", "HealthyClub.Administration.Web\HealthyClub.Administration.Web.csproj", "{4675AB91-1E98-4EF7-AACD-C0B155591025}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 15
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://bkcandra.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = HealthyClub.Administration.BF\\HealthyClub.Administration.BF.csproj
+		SccProjectTopLevelParentUniqueName1 = HealthyClub.sln
+		SccProjectName1 = HealthyClub.Administration.BF
+		SccLocalPath1 = HealthyClub.Administration.BF
+		SccProjectUniqueName2 = HealthyClub.Administration.DA\\HealthyClub.Administration.DA.csproj
+		SccProjectTopLevelParentUniqueName2 = HealthyClub.sln
+		SccProjectName2 = HealthyClub.Administration.DA
+		SccLocalPath2 = HealthyClub.Administration.DA
+		SccProjectUniqueName3 = HealthyClub.Administration.EDS\\HealthyClub.Administration.EDS.csproj
+		SccProjectTopLevelParentUniqueName3 = HealthyClub.sln
+		SccProjectName3 = HealthyClub.Administration.EDS
+		SccLocalPath3 = HealthyClub.Administration.EDS
+		SccProjectUniqueName4 = HealthyClub.Customer.BF\\HealthyClub.Customer.BF.csproj
+		SccProjectTopLevelParentUniqueName4 = HealthyClub.sln
+		SccProjectName4 = HealthyClub.Customer.BF
+		SccLocalPath4 = HealthyClub.Customer.BF
+		SccProjectUniqueName5 = HealthyClub.Customer.DA\\HealthyClub.Customer.DA.csproj
+		SccProjectTopLevelParentUniqueName5 = HealthyClub.sln
+		SccProjectName5 = HealthyClub.Customer.DA
+		SccLocalPath5 = HealthyClub.Customer.DA
+		SccProjectUniqueName6 = HealthyClub.Customer.EDS\\HealthyClub.Customer.EDS.csproj
+		SccProjectTopLevelParentUniqueName6 = HealthyClub.sln
+		SccProjectName6 = HealthyClub.Customer.EDS
+		SccLocalPath6 = HealthyClub.Customer.EDS
+		SccProjectUniqueName7 = HealthyClub.Customer.Web\\HealthyClub.Customer.Web.csproj
+		SccProjectTopLevelParentUniqueName7 = HealthyClub.sln
+		SccProjectName7 = HealthyClub.Customer.Web
+		SccLocalPath7 = HealthyClub.Customer.Web
+		SccProjectUniqueName8 = HealthyClub.EDM\\HealthyClub.EDM.csproj
+		SccProjectName8 = HealthyClub.EDM
+		SccLocalPath8 = HealthyClub.EDM
+		SccProjectUniqueName9 = HealthyClub.Provider.BF\\HealthyClub.Provider.BF.csproj
+		SccProjectTopLevelParentUniqueName9 = HealthyClub.sln
+		SccProjectName9 = HealthyClub.Provider.BF
+		SccLocalPath9 = HealthyClub.Provider.BF
+		SccProjectUniqueName10 = HealthyClub.Provider.DA\\HealthyClub.Provider.DA.csproj
+		SccProjectTopLevelParentUniqueName10 = HealthyClub.sln
+		SccProjectName10 = HealthyClub.Provider.DA
+		SccLocalPath10 = HealthyClub.Provider.DA
+		SccProjectUniqueName11 = HealthyClub.Provider.EDS\\HealthyClub.Provider.EDS.csproj
+		SccProjectTopLevelParentUniqueName11 = HealthyClub.sln
+		SccProjectName11 = HealthyClub.Provider.EDS
+		SccLocalPath11 = HealthyClub.Provider.EDS
+		SccProjectUniqueName12 = HealthyClub.Provider.Web\\HealthyClub.Provider.Web.csproj
+		SccProjectTopLevelParentUniqueName12 = HealthyClub.sln
+		SccProjectName12 = HealthyClub.Provider.Web
+		SccLocalPath12 = HealthyClub.Provider.Web
+		SccProjectUniqueName13 = HealthyClub.Utility\\HealthyClub.Utility.csproj
+		SccProjectName13 = HealthyClub.Utility
+		SccLocalPath13 = HealthyClub.Utility
+		SccProjectUniqueName14 = HealthyClub.Administration.Web\\HealthyClub.Administration.Web.csproj
+		SccProjectTopLevelParentUniqueName14 = HealthyClub.sln
+		SccProjectName14 = HealthyClub.Administration.Web
+		SccLocalPath14 = HealthyClub.Administration.Web
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{724AB630-EA61-4619-A614-525956A86547}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{724AB630-EA61-4619-A614-525956A86547}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{724AB630-EA61-4619-A614-525956A86547}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{724AB630-EA61-4619-A614-525956A86547}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C111F3D1-A79F-4F5A-BB12-05CBEE8C75B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C111F3D1-A79F-4F5A-BB12-05CBEE8C75B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C111F3D1-A79F-4F5A-BB12-05CBEE8C75B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C111F3D1-A79F-4F5A-BB12-05CBEE8C75B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50CF5036-7774-494A-94FD-114075B9CD2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50CF5036-7774-494A-94FD-114075B9CD2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50CF5036-7774-494A-94FD-114075B9CD2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50CF5036-7774-494A-94FD-114075B9CD2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A93BE34-B8B3-4F84-8474-76211A19E458}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A93BE34-B8B3-4F84-8474-76211A19E458}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A93BE34-B8B3-4F84-8474-76211A19E458}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A93BE34-B8B3-4F84-8474-76211A19E458}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00971025-E5C0-4B85-9915-00C4C5F01CF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00971025-E5C0-4B85-9915-00C4C5F01CF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00971025-E5C0-4B85-9915-00C4C5F01CF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00971025-E5C0-4B85-9915-00C4C5F01CF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21E659BE-2A5F-4588-A5B5-45D2AC945853}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21E659BE-2A5F-4588-A5B5-45D2AC945853}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21E659BE-2A5F-4588-A5B5-45D2AC945853}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21E659BE-2A5F-4588-A5B5-45D2AC945853}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C5A5889-B737-4018-9E6E-3408427E0D19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C5A5889-B737-4018-9E6E-3408427E0D19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C5A5889-B737-4018-9E6E-3408427E0D19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C5A5889-B737-4018-9E6E-3408427E0D19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0A8ADF0-37A8-4037-A279-7BFB5D537D8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0A8ADF0-37A8-4037-A279-7BFB5D537D8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0A8ADF0-37A8-4037-A279-7BFB5D537D8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0A8ADF0-37A8-4037-A279-7BFB5D537D8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{516FD4C9-303B-41FD-9BCA-19A0B996977D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{516FD4C9-303B-41FD-9BCA-19A0B996977D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{516FD4C9-303B-41FD-9BCA-19A0B996977D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{516FD4C9-303B-41FD-9BCA-19A0B996977D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0594CF1-0283-4636-A219-CBF69118D723}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0594CF1-0283-4636-A219-CBF69118D723}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0594CF1-0283-4636-A219-CBF69118D723}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0594CF1-0283-4636-A219-CBF69118D723}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A636BF9D-7BAF-4361-8B04-6FC426EDD833}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A636BF9D-7BAF-4361-8B04-6FC426EDD833}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A636BF9D-7BAF-4361-8B04-6FC426EDD833}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A636BF9D-7BAF-4361-8B04-6FC426EDD833}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AAFEBE4-02A7-49D6-B61A-F2A946419F36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AAFEBE4-02A7-49D6-B61A-F2A946419F36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AAFEBE4-02A7-49D6-B61A-F2A946419F36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AAFEBE4-02A7-49D6-B61A-F2A946419F36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFFC2E61-5E73-456F-B248-88B5300FEC08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFFC2E61-5E73-456F-B248-88B5300FEC08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFFC2E61-5E73-456F-B248-88B5300FEC08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFFC2E61-5E73-456F-B248-88B5300FEC08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4675AB91-1E98-4EF7-AACD-C0B155591025}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4675AB91-1E98-4EF7-AACD-C0B155591025}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4675AB91-1E98-4EF7-AACD-C0B155591025}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4675AB91-1E98-4EF7-AACD-C0B155591025}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{724AB630-EA61-4619-A614-525956A86547} = {A0055893-1D53-4044-84C8-52E6821BCC36}
+		{C111F3D1-A79F-4F5A-BB12-05CBEE8C75B8} = {A0055893-1D53-4044-84C8-52E6821BCC36}
+		{50CF5036-7774-494A-94FD-114075B9CD2A} = {A0055893-1D53-4044-84C8-52E6821BCC36}
+		{4675AB91-1E98-4EF7-AACD-C0B155591025} = {A0055893-1D53-4044-84C8-52E6821BCC36}
+		{9A93BE34-B8B3-4F84-8474-76211A19E458} = {24902E18-2A03-4590-99D9-375E8756CC0C}
+		{00971025-E5C0-4B85-9915-00C4C5F01CF1} = {24902E18-2A03-4590-99D9-375E8756CC0C}
+		{21E659BE-2A5F-4588-A5B5-45D2AC945853} = {24902E18-2A03-4590-99D9-375E8756CC0C}
+		{EFFC2E61-5E73-456F-B248-88B5300FEC08} = {24902E18-2A03-4590-99D9-375E8756CC0C}
+		{8C5A5889-B737-4018-9E6E-3408427E0D19} = {0664BD3E-5ACF-4B60-8511-5808354D0138}
+		{E0A8ADF0-37A8-4037-A279-7BFB5D537D8A} = {0664BD3E-5ACF-4B60-8511-5808354D0138}
+		{516FD4C9-303B-41FD-9BCA-19A0B996977D} = {0664BD3E-5ACF-4B60-8511-5808354D0138}
+		{5AAFEBE4-02A7-49D6-B61A-F2A946419F36} = {0664BD3E-5ACF-4B60-8511-5808354D0138}
+	EndGlobalSection
+EndGlobal
