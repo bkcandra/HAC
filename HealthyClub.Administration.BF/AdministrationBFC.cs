@@ -14,6 +14,7 @@ namespace HealthyClub.Administration.BF
 {
     public class AdministrationBFC
     {
+        //
         #region category
         public bool DeleteCategories(int categoryID)
         {
