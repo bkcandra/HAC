@@ -10,8 +10,10 @@ Project code: C#  with .NET : ASP.NET 4.5 Webforms
 identity provider : simplemembership
 Database : SQL Server 2008
 
-API used
+Restful Web API
 
+Flot
+Google Geocoder
 Google maps
 Google analytics
 Google captcha
